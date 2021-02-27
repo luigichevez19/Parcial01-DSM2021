@@ -49,9 +49,9 @@ public class Resultado extends AppCompatActivity {
         }
 
         int pun=((un*100)/larg),pdos=((dos*100)/larg),ptre=((tre*100)/larg),pcua=((cua*100)/larg);
-        uno.setText("Los votos del candidato 1 son:"+un+", el porcentaje que obtuvo fue: "+pun);
-        doss.setText("Los votos del candidato 1 son:"+dos+", el porcentaje que obtuvo fue: "+pdos);
-        tres.setText("Los votos del candidato 1 son:"+tre+", el porcentaje que obtuvo fue: "+ptre);
-        cuat.setText("Los votos del candidato 1 son:"+cua+", el porcentaje que obtuvo fue: "+pcua);
+        uno.setText("Los votos del candidato 1 son:"+un+", el porcentaje que obtuvo fue: "+pun+"%");
+        doss.setText("Los votos del candidato 2 son:"+dos+", el porcentaje que obtuvo fue: "+pdos+"%");
+        tres.setText("Los votos del candidato 3 son:"+tre+", el porcentaje que obtuvo fue: "+ptre+"%");
+        cuat.setText("Los votos del candidato 4 son:"+cua+", el porcentaje que obtuvo fue: "+pcua+"%");
     }
 }
