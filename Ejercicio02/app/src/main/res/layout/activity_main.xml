@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="numberSigned"
+
         android:hint="Ingrese los votos pero en arrelgo"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="79dp" />
