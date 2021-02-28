@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Ejercicio3</string>
+    <string name="tema">Formulario de Datos de Empleados</string>
+    <string name="hint_name">Jane</string>
+    <string name="cargo">Cargo</string>
+    <string name="hint_apel">Doe</string>
+    <string name="hint_cargo">Empleado, Gerente, etc...</string>
+    <string name="hint_horas">18,24,48,...</string>
+    <string name="nombre">Nombre:</string>
+    <string name="nombreT">Nombre</string>
+    <string name="apellido">Apellido:</string>
+    <string name="horas">Horas:</string>
+    <string name="calcular">Calcular</string>
+    <string name="a_adir">Añadir</string>
+    <string name="isss">ISSS</string>
+    <string name="afp">AFP</string>
+    <string name="renta">Renta</string>
+    <string name="extras">Bono</string>
+    <string name="total">Liquido</string>
+    <string name="datos_de_empleados">Datos de Empleados</string>
+</resources>
