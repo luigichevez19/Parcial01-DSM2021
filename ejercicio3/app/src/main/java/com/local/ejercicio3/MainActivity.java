@@ -49,10 +49,10 @@ public class MainActivity extends AppCompatActivity  {
         String n = name.getText().toString();
         String a = apell.getText().toString();
         String c = cargo.getText().toString();
-        int h = Integer.parseInt(horas.getText().toString());
-        Log.i("list",n+" "+a+" "+c+" "+String.valueOf(h));
-
-        if(n.equals("") || a.equals("") || c.equals("") || n.equals("")) Toast.makeText(getApplicationContext(),"Debe llenar todos los campos", Toast.LENGTH_LONG).show();
+        int h ;
+        if(horas.getText().toString().equals("")) h = 0;
+        else h = Integer.parseInt(horas.getText().toString());
+        if(n.equals("") || a.equals("") || c.equals("") || h < 1 ) Toast.makeText(getApplicationContext(),"Debe llenar todos los campos", Toast.LENGTH_LONG).show();
         else{
             list.add(new emp(n, a, c, h));
             if(list.size() >= 3){
